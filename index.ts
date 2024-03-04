@@ -12,7 +12,7 @@ app.use("/api/v1/admin",AdminRoute)
 app.use("/api/v1/vandor",VandorRoute)
 
 
-app.listen(8000,()=>{
+app.listen(8001,()=>{
     console.clear()
-    console.log("App is listining to the port 8000")
+    console.log("App is listining to the port 8001")
 })
